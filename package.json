@@ -1,0 +1,28 @@
+{
+  "name": "fastcampus-2021-examples",
+  "author": "Jeongho Jeong",
+  "license": "MIT",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "server": "nodemon socket/app.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/node": "^16.7.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
